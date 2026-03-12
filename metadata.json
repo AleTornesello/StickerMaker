@@ -1,0 +1,5 @@
+{
+  "name": "StickerMaker",
+  "description": "Create custom text stickers with various fonts, colors, and borders. Export as high-resolution PNGs.",
+  "requestFramePermissions": []
+}

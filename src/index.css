@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat:wght@700&family=Inter:wght@400;900&family=Pacifico&family=Roboto+Mono:wght@700&display=swap');
+
+@theme {
+  --font-modern: "Inter", sans-serif;
+  --font-handwritten: "Pacifico", cursive;
+  --font-bold-comic: "Bangers", system-ui;
+  --font-elegant: "Caveat", cursive;
+  --font-monospace: "Roboto Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+#sticker-canvas-container {
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
