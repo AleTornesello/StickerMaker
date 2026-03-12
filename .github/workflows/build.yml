@@ -35,6 +35,8 @@ jobs:
           node-version: "24"
       - name: Install dependencies
         run: npm install
+      - name: Build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
